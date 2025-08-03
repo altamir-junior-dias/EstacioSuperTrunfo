@@ -21,7 +21,7 @@ int main() {
 
     // Leitura dos dados da primeira carta
     printf("Cadastro da Carta 1\n");
-    printf("Estado (A-H): ");
+    printf("Estado: ");
     scanf(" %c", &estado1);
     
     printf("Código da Carta (ex: A01): ");
@@ -44,7 +44,7 @@ int main() {
 
     // Leitura dos dados da segunda carta
     printf("\nCadastro da Carta 2\n");
-    printf("Estado (A-H): ");
+    printf("Estado: ");
     scanf(" %c", &estado2);
     
     printf("Código da Carta (ex: B02): ");
